@@ -39,7 +39,25 @@ class MyCherrypy(object):
             'tools.staticdir.on': True,
             'tools.staticdir.dir': data_dir+"/downloads"}
         }
-    
+        
+    def __init__(self):
+        # hope to create downloads and images directories　
+        if not os.path.isdir(data_dir+"downloads"):
+            try:
+                os.makedirs(data_dir+"downloads")
+            except:
+                print("mkdir error")
+        if not os.path.isdir(data_dir+"images"):
+            try:
+                os.makedirs(data_dir+"images")
+            except:
+                print("mkdir error")
+        if not os.path.isdir(data_dir+"tmp"):
+            try:
+                os.makedirs(data_dir+"tmp")
+            except:
+                print("mkdir error")
+                
     @cherrypy.expose
     def index(self, heading=None, *args, **kwargs):
         return "cherrypy"
