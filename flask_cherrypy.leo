@@ -27,7 +27,13 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="amd.20150808105021.2">這個專案希望能夠邊寫一個能夠同時支援 Cherrypy 與 Flask 框架的網際程式, 同時比較兩種不同技術的差別</t>
+<t tx="amd.20150808105021.2">這個專案希望能夠邊寫一個能夠同時支援 Cherrypy 與 Flask 框架的網際程式, 同時比較兩種不同技術的差別
+
+github 倉儲: https://github.com/chiamingyen/flask_cherrypy.git
+
+OpenShift 對應程式: http://python-flaskcherrypy.rhcloud.com
+
+配合用的 Gmail 帳號: flaskcherrypy At gmail.com</t>
 <t tx="amd.20150808105159.1"></t>
 <t tx="amd.20150808105159.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

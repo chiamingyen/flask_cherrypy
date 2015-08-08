@@ -15,8 +15,8 @@ root = mycherrypy.MyCherrypy()
 #### ends for cherrypy
 
 # 決定要使用 cherrypy 或 flask
-framework = "cherrypy"
-#framework = "flask"
+#framework = "cherrypy"
+framework = "flask"
 
 # 根據所選擇的框架執行應用程式
 if framework == "cherrypy":
